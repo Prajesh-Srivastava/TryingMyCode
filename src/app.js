@@ -25,6 +25,11 @@ const app=express()
 //         })
 
 
+
+app.post('/',(req,res)=>{
+  res.send('try krr rahe 05/10/21')
+})
+
 app.post('/',(req,res)=>{
   res.send('jadsdnjnsd')
 })
